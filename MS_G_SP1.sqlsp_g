@@ -1,5 +1,5 @@
--- SP2  3/07/06  1:05                                             
--- get comment test                                                               
+-- G_SP1  1/21/21  8:32                                             
+--                                                                
 CREATE PROCEDURE MS_G_SP1                                           
 (IN PARM_1 CHAR (2), INOUT PARM_2 CHAR (4), INOUT PARM_3 CHAR (6))
 LANGUAGE SQL                                                      
