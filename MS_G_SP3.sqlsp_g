@@ -6,5 +6,6 @@ LANGUAGE SQL
   DECLARE VAR302 CHAR(4);                                         
   UPDATE MS_3PF                                                   
   SET PF3F3 = PARM_3, PF3F2 = PARM_2                              
-  WHERE PF3F1 = PARM_1;                                           
+  WHERE PF3F1 = PARM_1; 
+  .........this is mayank
  END;                                                             
