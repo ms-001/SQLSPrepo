@@ -8,4 +8,5 @@ LANGUAGE SQL
   UPDATE MS_3PF                                                   
   SET PF3F3 = PARM_3, PF3F2 = PARM_2                              
   WHERE PF3F1 = PARM_1;                                           
- END;                                                             
+ END;
+ -- test #2                                                             
