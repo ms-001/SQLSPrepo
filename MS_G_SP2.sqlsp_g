@@ -1,11 +1,11 @@
--- SP2  3/07/06  1:05                                             
--- get comment test                                                               
-CREATE PROCEDURE MS_G_SP2                                           
+-- SP2  3/07/06  1:05
+CREATE PROCEDURE MS_G_SP2
 (IN PARM_1 CHAR (2), INOUT PARM_2 CHAR (4), INOUT PARM_3 CHAR (6))
-LANGUAGE SQL                                                      
-  BEGIN                                                           
-  DECLARE VAR302 CHAR(4);                                         
-  UPDATE MS_3PF                                                   
-  SET PF3F3 = PARM_3, PF3F2 = PARM_2                              
-  WHERE PF3F1 = PARM_1;                                           
- END;                                                             
+LANGUAGE SQL
+  BEGIN
+  DECLARE VAR302 CHAR(4);
+  UPDATE MS_3PF
+  SET PF3F3 = PARM_3, PF3F2 = PARM_2
+  WHERE PF3F1 = PARM_1;
+ END;
+-- CHANGE #8
