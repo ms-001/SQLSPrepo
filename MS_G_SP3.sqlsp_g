@@ -1,4 +1,4 @@
--- G_SP3  1/21/21  8:34
+-- G_SP3  3/11/21 11:21
 CREATE PROCEDURE MS_G_SP3
 (IN PARM_1 CHAR (2), INOUT PARM_2 CHAR (4), INOUT PARM_3 CHAR (6))
 LANGUAGE SQL
@@ -10,6 +10,4 @@ LANGUAGE SQL
   --.........this is mayank
  END;
  -- Mike edit #3
- -- Mike edit #5
- -- CHANGE #10
  -- CHANGE #11
